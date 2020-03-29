@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danny Weston fanpage</title>
+	
+	<link rel='icon' href='images/icon.ico' type='image/x-icon'/>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+</head>
+<body>
+
+	<div class="navbar">
+		<ul id="navbarMenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="pictures.html">Pictures</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+
+	<div class="body">
+
+	<div class="emailform">	
+	<h2>Send your fanmail to Danny!</h2>
+	<form action="mailto:danielweston37@gmail.com" method="post" enctype="text/plain">
+		Name:<br>
+		<input type="text" name="name"><br><br>
+		E-mail:<br>
+		<input type="text" name="mail"><br><br>
+		Message:<br>
+		<input type="text" name="comment" size="50"><br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+	</form>
+	</div>
+	
+	<div class="imageform">
+	<h2>Upload your favourite Danny Weston photos!</h2>
+		<form action="upload.php" method="post" enctype="multipart/form-data">
+			<input type="file" name="fileToUpload" id="fileToUpload">
+			<input type="submit" value="Upload Image" name="submit">
+		</form>
+	</div>
+	
+	</div>
+	
+	
+	<div class="footer">
+		<marquee><div class="music">
+		<p>listen to Danny's favourite tunes!
+			<ul id="musicList">
+				<li>
+					<p>Track 1</p> 
+					<audio controls class="mplayer" src="music/empireants.mp3" type="audio/mpeg"/>
+				</li>
+			</ul>
+		</div></marquee>
+	</div>
+</body>
+</html>
+
+
